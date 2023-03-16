@@ -1,0 +1,12 @@
+letter = input("Введите букву латинского алфавита: ")
+while letter != "":
+  if letter == "a" or letter == "e" or letter == "i" or letter   == "o" or letter == "u":
+    print(letter, "это гласная буква")
+    letter = input("Введите букву латинского алфавита: ")
+  elif letter == "y":
+    print(letter, "это гласная и согласная буква")
+    letter = input("Введите букву латинского алфавита: ")
+  else:
+    print(letter, "это согласная буква")
+    letter = input("Введите букву латинского алфавита: ")
+print("Конец программы")
