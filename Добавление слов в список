@@ -1,0 +1,8 @@
+words = input("Введите слово: ")
+data = []
+while words !="":
+  if words not in data:
+    data.append(words)
+  words = input("Введите слово: ")
+for i in data:
+  print(i)
