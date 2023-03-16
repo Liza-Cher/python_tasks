@@ -1,0 +1,6 @@
+example = "Пример ввода строки для программирования"
+count = 0
+for item in example:
+  if item =="м":
+    count += 1
+print(count, "буквы 'м' в данной строке")
