@@ -1,0 +1,12 @@
+users = {10: "Маша", 20: "Петя", 30: "Вася", 15:"Катя", 5:"Женя", 25:"Гоша"}
+ab = int(input("Введите значение: "))
+while ab !=0:
+# for item in users:
+  if ab in users:
+    c = users[ab]
+    print(c)
+    ab = int(input("Введите значение: "))
+  else:
+    print("Элемент не найден")
+    ab = int(input("Введите значение: "))
+print("Конец!")
