@@ -1,0 +1,9 @@
+num = int(input("Введите число: "))
+while num !=0:
+  if num % 2 ==0:
+    print (num, "- четное число")
+    num = int(input("Введите число: "))
+  else:
+    print (num, "- нечетное число")
+    num = int(input("Введите число: "))
+print("Конец")
