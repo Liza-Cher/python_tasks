@@ -4,5 +4,5 @@
 
 quantity = int(input("Введите количество учеников: "))
 import math
-desks = math.ceil(quantity / 2)
+desks = math.ceil(quantity / 2) # округлили в бОльшую сторону
 print(desks)
