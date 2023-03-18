@@ -3,5 +3,6 @@
 # Сколько всего нужно закупить парт, чтобы их хватило на всех учеников?
 
 quantity = int(input("Введите количество учеников: "))
-desks = round(quantity / 2)
+import math
+desks = math.ceil(quantity / 2)
 print(desks)
