@@ -1,0 +1,11 @@
+# задание: Найти минимальное и максимальное число в строке - строка="kskng79whg-6rthrh+2rhrh5rhrh3822rhr1rhr0r"
+
+# решение:
+
+text ="kskng9whg-1rthrh+2rhrh0rhrh122rhr500rhrr"
+res = []
+digit = '0123456789'
+for i in text:
+  if i in digit:
+    res.append(int(i))
+print(min(res), max(res))
